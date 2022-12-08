@@ -1,0 +1,15 @@
+{
+    "name": "ku_bence/jelenlet",
+    "description": "Szakképesítő vizsgamunka",
+    "autoload": {
+        "psr-4": {
+            "App\\": "App/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ku Bence"
+        }
+    ],
+    "require": {}
+}
