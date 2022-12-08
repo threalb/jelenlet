@@ -3,6 +3,7 @@
 namespace App\adminPage\Controller;
 
 use Twig\Loader\FilesystemLoader;
+use App\adminPage\Model\LoginDao;
 class LoginController
 {
     public function index()
@@ -11,15 +12,17 @@ class LoginController
         echo $twig->render('login/login.html.twig');
     }
 
-//    public function validateUserByEmailAndPassword(){
-//
-//        if (LoginDao::validateUserByEmailAndPassword()){
-//            header('Location: /users');
-//        } else {
-//            echo '<script>alert("Hibás felhasználónév/jelszó!!!")</script>';
-//            echo '<script>history.go(-1)</script>';
-//        }
-//    }
+    public function validateUserByEmailAndPassword(){
+
+        if (LoginDao::validateUserByEmailAndPassword()){
+
+            session_start();
+            header('Location: /dashboard');
+        } else {
+            echo '<script>alert("Hibás felhasználónév/jelszó!!!")</script>';
+            echo '<script>history.go(-1)</script>';
+        }
+    }
 
     public function setTwigEnvironment(){
         $loader = new FilesystemLoader(__DIR__ . '\..\View');
