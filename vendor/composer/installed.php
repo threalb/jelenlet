@@ -3,7 +3,7 @@
         'name' => 'ku_bence/jelenlet',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => '4785955b7e672422a62c0dbdf078bef4504615e6',
+        'reference' => '3b605e76625d1d43033977028c910fbf920d707c',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -13,7 +13,7 @@
         'ku_bence/jelenlet' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => '4785955b7e672422a62c0dbdf078bef4504615e6',
+            'reference' => '3b605e76625d1d43033977028c910fbf920d707c',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),

@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c87bb87-c455-46d1-9bed-b19704721ae3" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/jelenlet.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jelenlet.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/config.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/installed.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +28,8 @@
       <path value="$PROJECT_DIR$/vendor/twig/twig" />
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/vendor/monolog/monolog" />
     </include_path>
   </component>
   <component name="ProjectId" id="2Id6KDESEdieLJNSvaPnzRowolx" />
@@ -39,7 +43,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/BlackOps/Desktop/szakvizsga/jelenlet/admin",
+    "last_opened_file_path": "C:/Users/BlackOps/Desktop/szakvizsga/jelenlet/App/Lib",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "web-ide.project.structure",
     "vue.rearranger.settings.migration": "true"
@@ -47,10 +51,12 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\BlackOps\Desktop\szakvizsga\jelenlet\App\Lib" />
       <recent name="C:\Users\BlackOps\Desktop\szakvizsga\jelenlet\admin" />
       <recent name="C:\Users\BlackOps\Desktop\szakvizsga\jelenlet\App\publoc" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\BlackOps\Desktop\szakvizsga\jelenlet\App" />
       <recent name="C:\Users\BlackOps\Desktop\szakvizsga\jelenlet\App\admin" />
     </key>
   </component>
@@ -63,7 +69,7 @@
       <option name="presentableId" value="Default" />
       <updated>1670499047727</updated>
       <workItem from="1670499049090" duration="1668000" />
-      <workItem from="1670500744323" duration="1073000" />
+      <workItem from="1670500744323" duration="1660000" />
     </task>
     <servers />
   </component>
