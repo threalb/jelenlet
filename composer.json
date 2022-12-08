@@ -11,5 +11,7 @@
             "name": "Ku Bence"
         }
     ],
-    "require": {}
+    "require": {
+        "twig/twig": "^3.0"
+    }
 }
