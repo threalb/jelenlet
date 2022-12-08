@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c87bb87-c455-46d1-9bed-b19704721ae3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/admin/assets/demo/chart-area-demo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/assets/demo/chart-bar-demo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/assets/demo/chart-pie-demo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/assets/demo/datatables-demo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/assets/img/error-404-monochrome.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/css/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/js/datatables-simple-demo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/js/scripts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jelenlet.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jelenlet.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +23,9 @@
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
       <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/twig/twig" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-ctype" />
     </include_path>
   </component>
   <component name="ProjectId" id="2Id6KDESEdieLJNSvaPnzRowolx" />
@@ -51,6 +47,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\BlackOps\Desktop\szakvizsga\jelenlet\admin" />
       <recent name="C:\Users\BlackOps\Desktop\szakvizsga\jelenlet\App\publoc" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -66,7 +63,7 @@
       <option name="presentableId" value="Default" />
       <updated>1670499047727</updated>
       <workItem from="1670499049090" duration="1668000" />
-      <workItem from="1670500744323" duration="744000" />
+      <workItem from="1670500744323" duration="1073000" />
     </task>
     <servers />
   </component>
