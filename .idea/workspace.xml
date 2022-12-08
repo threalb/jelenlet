@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c87bb87-c455-46d1-9bed-b19704721ae3" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/jelenlet.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jelenlet.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/publicPage/View/home.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/App/publicPage/View/home.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/request.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/request.log" afterDir="false" />
     </list>
@@ -14,6 +16,13 @@
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -39,10 +48,11 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/xampp/htdocs/szakvizsga/jelenlet/App/public/Controller",
+    "last_opened_file_path": "C:/xampp/htdocs/szakvizsga/jelenlet/App/adminPage/View",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "web-ide.project.structure",
     "vue.rearranger.settings.migration": "true"
@@ -50,11 +60,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\szakvizsga\jelenlet\App\adminPage\View" />
+      <recent name="C:\xampp\htdocs\szakvizsga\jelenlet\App\adminPage\View\login" />
       <recent name="C:\xampp\htdocs\szakvizsga\jelenlet\App\public\Controller" />
       <recent name="C:\xampp\htdocs\szakvizsga\jelenlet\App\Lib" />
       <recent name="C:\Users\BlackOps\Desktop\szakvizsga\jelenlet\App\Lib" />
-      <recent name="C:\Users\BlackOps\Desktop\szakvizsga\jelenlet\admin" />
-      <recent name="C:\Users\BlackOps\Desktop\szakvizsga\jelenlet\App\publoc" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\BlackOps\Desktop\szakvizsga\jelenlet\App" />
@@ -71,7 +81,7 @@
       <updated>1670499047727</updated>
       <workItem from="1670499049090" duration="1668000" />
       <workItem from="1670500744323" duration="1660000" />
-      <workItem from="1670502545477" duration="1663000" />
+      <workItem from="1670502545477" duration="7249000" />
     </task>
     <servers />
   </component>
