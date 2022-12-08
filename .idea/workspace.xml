@@ -3,16 +3,16 @@
   <component name="ChangeListManager">
     <list default="true" id="4c87bb87-c455-46d1-9bed-b19704721ae3" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/config.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/installed.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/app.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/app.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/request.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/request.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
@@ -43,7 +43,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/BlackOps/Desktop/szakvizsga/jelenlet/App/Lib",
+    "last_opened_file_path": "C:/xampp/htdocs/szakvizsga/jelenlet",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "web-ide.project.structure",
     "vue.rearranger.settings.migration": "true"
@@ -70,6 +70,7 @@
       <updated>1670499047727</updated>
       <workItem from="1670499049090" duration="1668000" />
       <workItem from="1670500744323" duration="1660000" />
+      <workItem from="1670502545477" duration="434000" />
     </task>
     <servers />
   </component>
