@@ -4,7 +4,6 @@
     <list default="true" id="4c87bb87-c455-46d1-9bed-b19704721ae3" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/app.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/app.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/request.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/request.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,7 +42,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/xampp/htdocs/szakvizsga/jelenlet",
+    "last_opened_file_path": "C:/xampp/htdocs/szakvizsga/jelenlet/App/public/Controller",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "web-ide.project.structure",
     "vue.rearranger.settings.migration": "true"
@@ -51,6 +50,8 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\szakvizsga\jelenlet\App\public\Controller" />
+      <recent name="C:\xampp\htdocs\szakvizsga\jelenlet\App\Lib" />
       <recent name="C:\Users\BlackOps\Desktop\szakvizsga\jelenlet\App\Lib" />
       <recent name="C:\Users\BlackOps\Desktop\szakvizsga\jelenlet\admin" />
       <recent name="C:\Users\BlackOps\Desktop\szakvizsga\jelenlet\App\publoc" />
@@ -70,7 +71,7 @@
       <updated>1670499047727</updated>
       <workItem from="1670499049090" duration="1668000" />
       <workItem from="1670500744323" duration="1660000" />
-      <workItem from="1670502545477" duration="434000" />
+      <workItem from="1670502545477" duration="1663000" />
     </task>
     <servers />
   </component>
