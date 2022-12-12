@@ -9,6 +9,7 @@ class LoginController
     public function index()
     {
         $twig = (new LoginController())->setTwigEnvironment();
+
         echo $twig->render('login/login.html.twig');
     }
 

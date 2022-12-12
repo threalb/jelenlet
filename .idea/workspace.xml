@@ -2,24 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c87bb87-c455-46d1-9bed-b19704721ae3" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/jelenlet.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jelenlet.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/adminPage/Controller/CalendarController.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/adminPage/Controller/CalendarController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/adminPage/Controller/DashboardController.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/adminPage/Controller/DashboardController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/App/adminPage/Controller/LoginController.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/adminPage/Controller/LoginController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/adminPage/Model/LoginDao.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/adminPage/Model/LoginDao.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/adminPage/View/dashboard.html.twig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/adminPage/View/footer.html.twig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/adminPage/View/header.html.twig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/adminPage/View/login/login.html.twig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/adminPage/View/side_nav.html.twig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/assets/demo/chart-area-demo.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/assets/demo/chart-bar-demo.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/assets/demo/chart-pie-demo.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/assets/demo/datatables-demo.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/assets/img/error-404-monochrome.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/css/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/js/datatables-simple-demo.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/js/scripts.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/adminPage/View/calendar/calendar.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/App/adminPage/View/calendar/calendar.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/adminPage/View/header.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/App/adminPage/View/header.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/adminPage/View/side_nav.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/App/adminPage/View/side_nav.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/admin/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/request.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/request.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_files.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_files.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/installed.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/platform_check.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/platform_check.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +53,12 @@
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-ctype" />
       <path value="$PROJECT_DIR$/vendor/psr/log" />
       <path value="$PROJECT_DIR$/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/vendor/symfony/yaml" />
+      <path value="$PROJECT_DIR$/vendor/spatie/yaml-front-matter" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php80" />
+      <path value="$PROJECT_DIR$/vendor/symfony/translation-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/vendor/nesbot/carbon" />
     </include_path>
   </component>
   <component name="ProjectId" id="2Id6KDESEdieLJNSvaPnzRowolx" />
@@ -65,10 +73,15 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/xampp/htdocs/szakvizsga/jelenlet/App/adminPage/View",
+    "last_opened_file_path": "C:/xampp/htdocs/szakvizsga/jelenlet",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "web-ide.project.structure",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mariadb"
+    ]
   }
 }]]></component>
   <component name="RecentsManager">
@@ -94,7 +107,11 @@
       <updated>1670499047727</updated>
       <workItem from="1670499049090" duration="1668000" />
       <workItem from="1670500744323" duration="1660000" />
-      <workItem from="1670502545477" duration="11962000" />
+      <workItem from="1670502545477" duration="12807000" />
+      <workItem from="1670572185859" duration="2576000" />
+      <workItem from="1670582508420" duration="2369000" />
+      <workItem from="1670829165465" duration="3000" />
+      <workItem from="1670840169208" duration="2745000" />
     </task>
     <servers />
   </component>

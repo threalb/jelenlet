@@ -1,5 +1,37 @@
 {% include 'header.html.twig' %}
-<div class="container">
+{{ dump(feastdays) }}
+<div class="container bg-white">
+    <div class="calendar_head"> Jelenlét - "dolgozó neve"</div>
+    <div class="calendar-body">
+        <button class="btn">Jelenlét típusok</button>
+        <button class="btn">Jelenét feltöltése egész hónapra</button>
+        <button class="btn">Teljes hónap kiürítése</button>
+        
+        <h3>ÉV - HÓNAP</h3>
+        
+        <div class="month_change">
+            <a href="">Előző hónap</a>
+            <a href="">Aktuális hónap</a>
+            <a href="">Következő hónap</a>
+        </div>
+        <form action="">
+            <input type="checkbox" name="" id=""><label for="">Hétvége és ünnepnap módosító</label>
+        </form>
+        <table>
+            <thead>
+            <tr>
+                <th>h</th>
+                <th>k</th>
+                <th>sze</th>
+                <th>cs</th>
+                <th>p</th>
+                <th>szo</th>
+                <th>v</th>
+            </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
 
 </div>
 {% include 'footer.html.twig' %}

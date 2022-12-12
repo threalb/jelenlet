@@ -13,6 +13,8 @@
     ],
     "require": {
         "monolog/monolog": "1.25.1",
-        "twig/twig": "^3.0"
+        "twig/twig": "^3.0",
+        "spatie/yaml-front-matter": "^2.0",
+        "nesbot/carbon": "^2.64"
     }
 }

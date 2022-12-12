@@ -7,6 +7,7 @@ use Twig\Loader\FilesystemLoader;
 class DashboardController {
     public function index(){
         $twig = (new DashboardController())->setTwigEnvironment();
+
         echo $twig->render('dashboard.html.twig',[]);
     }
 
