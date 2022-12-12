@@ -2,14 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c87bb87-c455-46d1-9bed-b19704721ae3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/App/adminPage/Model/ICrudDao.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App/adminPage/View/employee/employee_add.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App/adminPage/View/employee/employee_delete.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App/adminPage/View/employee/employee_update.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/4f4788b4-cae4-4b75-bfd5-77a74235e765.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/4f4788b4-cae4-4b75-bfd5-77a74235e765.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/App/adminPage/Controller/CalendarController.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/adminPage/Controller/CalendarController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/App/adminPage/Model/CalendarDao.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/adminPage/Model/CalendarDao.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/adminPage/Model/EmployeeDao.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/adminPage/Model/EmployeeDao.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/App/adminPage/View/calendar/calendar.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/App/adminPage/View/calendar/calendar.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/adminPage/View/footer.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/App/adminPage/View/footer.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_install/install_SQL.sql" beforeDir="false" afterPath="$PROJECT_DIR$/_install/install_SQL.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/admin/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/adminPage/View/employee/employees.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/App/adminPage/View/employee/employee.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/adminPage/View/side_nav.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/App/adminPage/View/side_nav.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/request.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/request.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -100,7 +104,7 @@
       <workItem from="1670572185859" duration="2576000" />
       <workItem from="1670582508420" duration="2369000" />
       <workItem from="1670829165465" duration="3000" />
-      <workItem from="1670840169208" duration="12288000" />
+      <workItem from="1670840169208" duration="14279000" />
     </task>
     <servers />
   </component>

@@ -7,11 +7,11 @@ use App\adminPage\Model\CalendarDao;
 
 class CalendarController {
     public function index() {
-        $feastdays=CalendarDao::getAllFeastDays();
+        $feastDays=CalendarDao::getAllFeastDays();
         $presenceTypes=CalendarDao::getAllPresenceType();
         $twig = (new CalendarController())->setTwigEnvironment();
         echo $twig->render('calendar/calendar.html.twig',[
-            'feastdays'=>$feastdays,
+            'feastDays'=>$feastDays,
             'presenceTypes'=>$presenceTypes,
         ]);
     }
