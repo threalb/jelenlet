@@ -1,0 +1,19 @@
+<script>
+    $( document ).ready(function() {
+        $('.presenceTypes').on('click',function(){
+           $('#presenceTypesModal').modal('show');
+        });
+        $('.presenceType').css('cursor','pointer');
+    });
+    $('tr.notCommon').hide();
+    $('#showNotCommon')
+        .on('change', function () {
+            if ($(this).prop('checked')) {
+                $('tr.notCommon').addClass('shown').show();
+            } else {
+                $('tr.notCommon').removeClass('shown').hide();
+            }
+        });
+
+
+</script>

@@ -14,4 +14,13 @@ class CalendarDao {
         $statement->execute();
         return $statement->fetchAll();
     }
+    public static function getAllPresenceType() {
+        $dbObj = new Database();
+        $conn = $dbObj->getConnection();
+        $sql= "SELECT * FROM presencetype ORDER BY PT_ID;";
+        $statement =$conn->prepare($sql);
+        $statement -> setFetchMode(\PDO::FETCH_OBJ);
+        $statement->execute();
+        return $statement->fetchAll();
+    }
 }

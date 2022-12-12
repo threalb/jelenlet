@@ -8,9 +8,14 @@ use App\adminPage\Model\CalendarDao;
 class CalendarController {
     public function index() {
         $feastdays=CalendarDao::getAllFeastDays();
+        $presenceTypes=CalendarDao::getAllPresenceType();
         $twig = (new CalendarController())->setTwigEnvironment();
-        echo $twig->render('calendar/calendar.html.twig',['feastdays'=>$feastdays]);
+        echo $twig->render('calendar/calendar.html.twig',[
+            'feastdays'=>$feastdays,
+            'presenceTypes'=>$presenceTypes,
+        ]);
     }
+
 
     public function setTwigEnvironment() {
         $loader = new FilesystemLoader(__DIR__ . '\..\View');

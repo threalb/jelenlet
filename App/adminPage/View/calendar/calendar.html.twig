@@ -1,37 +1,124 @@
 {% include 'header.html.twig' %}
-{{ dump(feastdays) }}
-<div class="container bg-white">
-    <div class="calendar_head"> Jelenlét - "dolgozó neve"</div>
+
+{# {{ dump(presenceTypes) }} #}
+<div class="bg-white p-3 m-3 border rounded shadow-lg">
+    <div class="calendar_head mt-2 mb-2">
+        <h4> Jelenlét - "dolgozó neve</h4>
+    </div>
     <div class="calendar-body">
-        <button class="btn">Jelenlét típusok</button>
-        <button class="btn">Jelenét feltöltése egész hónapra</button>
-        <button class="btn">Teljes hónap kiürítése</button>
-        
-        <h3>ÉV - HÓNAP</h3>
-        
-        <div class="month_change">
-            <a href="">Előző hónap</a>
-            <a href="">Aktuális hónap</a>
-            <a href="">Következő hónap</a>
+        <div class="col">
+            <button class="btn btn-primary">Jelenlét típusok</button>
+            <button class="btn btn-info">Jelenét feltöltése egész hónapra</button>
+            <button class="btn btn-warning">Teljes hónap kiürítése</button>
         </div>
+
         <form action="">
-            <input type="checkbox" name="" id=""><label for="">Hétvége és ünnepnap módosító</label>
+            <table class="table table-responsive text-left " id="calendarTable">
+                <thead>
+                <tr>
+                    <th colspan="7" class="text-center">
+                        <h3> {{ time|date_modify("1 day") | date('Y') }} {{ time|date('F') }}</h3>
+                    </th>
+                </tr>
+                <tr class="text-center">
+                    <th colspan="7">
+                        <div class="d-flex justify-content-between">
+                            <a class="btn btn-secondary" href="">Előző hónap</a>
+                            <a class="btn btn-secondary" href="">Aktuális hónap</a>
+                            <a class="btn btn-secondary" href="">Következő hónap</a>
+                        </div>
+                    </th>
+                </tr>
+
+                <tr>
+                    <th class=" ">Monday</th>
+                    <th class=" ">Tuesday</th>
+                    <th class=" ">Wednesday</th>
+                    <th class=" ">Thursday</th>
+                    <th class=" ">Friday</th>
+                    <th class=" ">Saturday</th>
+                    <th class=" ">Sunday</th>
+                </tr>
+
+                </thead>
+                <tbody>
+                <tr>
+                    {% set daysInMonth = time|date('t') %}
+                    {% set startDow = time|date('F 1\\s\\t Y')|date('N') - 1 %}
+                    {% set dow = startDow %}
+                    {% for day in range(1,daysInMonth) %}
+                    {% if loop.first and startDow != 0 %}
+                        <td colspan="{{ startDow }}"></td>
+                    {% endif %}
+                    <td class="day">
+                        <div>
+                            <div><h4>{{ day }}</h4></div>
+                            <div>
+                                <div class="d-flex justify-content-evenly align-items-center ">
+                                    <btn class="btn btn-secondary presenceTypes" id=" ">Jelenlét típus</btn>
+                                    <div>
+                                        <div class="  border border-3 border-secondary rounded pTypeIndicator"></div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </td>
+                    {% if loop.last and dow != 6 %}
+                        <td colspan="{{ 6 - dow }}">&nbsp;</td>
+                    {% endif %}
+                    {% if dow == 6 %}
+                    {% set dow = 0 %}
+                </tr>
+                <tr>
+                    {% else %}
+                        {% set dow = dow + 1 %}
+                    {% endif %}
+                    {% endfor %}
+                </tr>
+                </tbody>
+            </table>
         </form>
-        <table>
-            <thead>
-            <tr>
-                <th>h</th>
-                <th>k</th>
-                <th>sze</th>
-                <th>cs</th>
-                <th>p</th>
-                <th>szo</th>
-                <th>v</th>
-            </tr>
-            </thead>
-            <tbody></tbody>
-        </table>
     </div>
 
+    <div class="modal fade " id="presenceTypesModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+         aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Jelenlét típusok</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <table class="table table-hover " id="presenceTypesTable">
+                        <thead class="mt-3">
+                        <tr>
+                            <th><p class="col">
+                                    <label>
+                                        <input type="checkbox" id="showNotCommon">
+                                        Nem gyakoriak kimutatása
+                                    </label>
+                                </p>
+                            </th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        {% for presenceType in presenceTypes %}
+                            <tr id="{{ presenceType.PT_ID }}"
+                                class=" presenceType {{ presenceType.PT_IsCommon ? 'shown': 'notCommon' }}">
+                                <td class="">{{ presenceType.PT_DisplayCode }} - {{ presenceType.PT_Name }}</td>
+                            </tr>
+                        {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
+
 {% include 'footer.html.twig' %}
