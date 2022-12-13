@@ -1,0 +1,59 @@
+{% include 'header.html.twig' %}
+{#<pre>#}
+{# {{ dump(employee) }}#}
+{#    </pre>#}
+<div class=" p-3 m-3 border bg-dark  rounded shadow-lg">
+    <div class="content bg-dark">
+        <div class="contentHeader">
+            <h1 class="text-center text-white p-3 rounded">Dolgozó módosítása</h1>
+        </div>
+        <div class="contentBody  text-white p-3">
+            <form action="/employeeEdit" method="POST">
+                <input type="hidden" value="{{ employee.id }}" name="id">
+                <div class="form-group">
+                    <label for="lastName">Vezetéknév*</label>
+                    <input type="text" class="form-control" name="lastName" id="lastName" placeholder="Írja be a vezeték nevét..." value="{{ employee.first_name }}" required>
+                </div>
+                <div class="form-group">
+                    <label for="firstName">Keresztnév*</label>
+                    <input type="text" class="form-control" name="firstName" id="firstName" placeholder="Írja be a kereszt nevét..."value="{{ employee.last_name }}"  required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email*</label>
+                    <input type="email" class="form-control" name="email" id="email" placeholder="Írja be a email címét..."value="{{ employee.email }}"  required>
+                </div>
+                <div class="form-group">
+                    <label for="description">Leírás*</label>
+                    <input type="text" class="form-control" name="description" id="description" placeholder="Írja leírást..." value="{{ employee.description }}" >
+                </div>
+                <div class="form-group">
+                    <label for="pictureLink">Képfeltöltés (link)</label>
+                    <input type="text" class="form-control" name="pictureLink" placeholder="Töltösön fel egy képet..." id="pictureLink" value="{{ employee.picture_link}}" >
+                </div>
+                <div class="form-group">
+                    <label for="categoryId">Beosztás*</label>
+                    <select class="form-select" name="categoryId" id="categoryId">
+                        {% for employeeCategory in employeeCategories %}
+                            <option value="{{ employeeCategory.id }}" {{ employeeCategory.id == employee.category_id ? 'selected':''}}>{{ employeeCategory.name }}</option>
+                        {% endfor %}
+                    </select>
+                </div>
+                <div class="form-check mt-3">
+                    <input type="checkbox" name="status" id="status" {{ employee.status ? 'checked':''}}>
+                    <label for="status">Aktív</label>
+                </div>
+                <div class="form-group mt-3 justify-content-between d-flex">
+                    <a href="javascript:history.go(-1)" class="btn btn-warning">
+                        <i class="fa-solid fa-arrow-left"></i>
+                        Vissza</a>
+                    <button type="submit" class="btn btn-success text-white" name="update">
+                        <i class="fa-solid fa-floppy-disk"></i>
+                        MÓDOSÍT
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+{% include 'footer.html.twig' %}
